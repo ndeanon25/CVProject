@@ -1,14 +1,14 @@
 # 🧠 YOLOv8 Face Detection - Custom Trained Model
 
-This project uses [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) to detect **Nathan's face** from live webcam input. The model was custom-trained on personal image data and deployed using OpenCV on macOS.
+This project uses [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) to detect **my face** from live webcam input. The model was custom-trained on personal image data and deployed using OpenCV on macOS.
 
 ---
 
 ## 📸 Demo
 
-> Detects my face in real time using my Mac's webcam.
+[![Watch the demo](https://img.youtube.com/vi/_yJEXPrk828/hqdefault.jpg)](https://www.youtube.com/watch?v=_yJEXPrk828)
 
-![Demo]((https://youtu.be/_yJEXPrk828)) <!-- Optional: include a demo gif or video -->
+See it in action: real-time face detection using YOLOv8 and OpenCV. > Detects my face in real time using my Mac's webcam.
 
 ---
 
@@ -32,4 +32,33 @@ This project uses [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytic
 ---
 
 ## 🗂 Project Structure
+
+## 🏁 Getting Started
+
+1. **Install dependencies**
+
+```bash
+pip install ultralytics opencv-python
+
+
+```
+##Train the model 
+
+1.Use main.py to train, read comments in the code to help you understand. 
+
+##⚙️ Config (config.yaml)
+path: absolute path to your data
+train: images/train
+val: images/val
+
+names:
+  0: you
+
+## 📈 Training Results
+
+Here are the training curves and performance metrics after 75 epochs:
+
+![Training Results]()
+
+
 
