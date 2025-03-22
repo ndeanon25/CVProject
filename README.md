@@ -8,7 +8,7 @@ This project uses [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytic
 
 > Detects my face in real time using my Mac's webcam.
 
-![Demo](path/to/demo.gif) <!-- Optional: include a demo gif or video -->
+![Demo]((https://youtu.be/_yJEXPrk828)) <!-- Optional: include a demo gif or video -->
 
 ---
 
