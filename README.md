@@ -42,13 +42,13 @@ pip install ultralytics opencv-python
 
 
 ```
-##Train the model 
+## Train the model 
 
-1.Use main.py to train, read comments in the code to help you understand. 
+1. Use main.py to train, read comments in the code to help you understand. 
 
-##⚙️ Config (config.yaml)
-path: absolute path to your data
-train: images/train
+## ⚙️ Config (config.yaml)
+path: absolute path to your data<br>
+train: images/train<br>
 val: images/val
 
 names:
@@ -59,6 +59,17 @@ names:
 Here are the training curves and performance metrics after 75 epochs:
 
 ![Training Results](runs/results.png)
+
+## 📈 TLDR Training Results
+
+| Metric         | Value       |
+|----------------|-------------|
+| mAP@0.5        | 1.00        |
+| mAP@0.5:0.95   | 0.55        |
+| Precision      | ~1.00       |
+| Recall         | ~1.00       |
+| Epochs Trained | 75          |
+
 
 
 
