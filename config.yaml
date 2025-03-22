@@ -1,0 +1,7 @@
+path: /Users/nathandeanon/Documents/CVProject/data # Path to the data directory
+train: /Users/nathandeanon/Documents/CVProject/data/images/train # Directory containing training images
+val: /Users/nathandeanon/Documents/CVProject/data/images/val # Directory containing validation images
+
+#Classes
+names:
+  0: Nathan
