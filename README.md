@@ -28,6 +28,7 @@ See it in action: real-time face detection using YOLOv8 and OpenCV. > Detects my
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - [OpenCV](https://opencv.org/)
 - [PyTorch](https://pytorch.org/)
+- [CVAT](https://app.cvat.ai/)
 
 ---
 
