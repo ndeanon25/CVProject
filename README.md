@@ -2,6 +2,7 @@
 
 This project uses [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) to detect **my face** from live webcam input. The model was custom-trained on personal image data and deployed using OpenCV on macOS.
 
+##Disclaimer: This will not work without your data, this project was built specifically for my face, so the code will work if tweaked by changing paths to your data. This is to help you get started on it. 
 ---
 
 ## 📸 Demo
