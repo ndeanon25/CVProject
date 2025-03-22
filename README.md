@@ -31,8 +31,6 @@ See it in action: real-time face detection using YOLOv8 and OpenCV. > Detects my
 
 ---
 
-## 🗂 Project Structure
-
 ## 🏁 Getting Started
 
 1. **Install dependencies**
